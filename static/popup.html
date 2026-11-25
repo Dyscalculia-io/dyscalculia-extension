@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <img src="icons/32.png" alt="" width="24" height="24" />
+    <h1 data-i18n="extName"></h1>
+    <label class="switch" data-i18n-title="masterSwitch"><input type="checkbox" id="enabled" /><span></span></label>
+  </header>
+  <p class="notice" id="notice" hidden data-i18n="notAvailable"></p>
+
+  <nav class="tabs" id="tabs">
+    <button data-tab="number" data-i18n="tabNumber"></button>
+    <button data-tab="percent">%</button>
+    <button data-tab="bill" data-i18n="tabBill"></button>
+    <button data-tab="unit" data-i18n="tabUnit"></button>
+    <button data-tab="time" data-i18n="tabTime"></button>
+    <button data-tab="settings" aria-label="Settings">⚙</button>
+  </nav>
+
+  <section data-pane="number">
+    <label class="field"><span data-i18n="typeNumber"></span><input id="numIn" inputmode="decimal" autocomplete="off" placeholder="1,250,000" /></label>
+    <div class="result" id="numOut"></div>
+    <div class="btns">
+      <button id="explainSel" class="primary" data-i18n="btnExplainSel"></button>
+      <button id="explainTyped" data-i18n="btnExplainTyped"></button>
+    </div>
+    <label class="row check"><input type="checkbox" id="hover" /><span data-i18n="hoverMode"></span></label>
+    <p class="hint" data-i18n="hoverHint"></p>
+  </section>
+
+  <section data-pane="percent" hidden>
+    <h2 data-i18n="pctOf"></h2>
+    <div class="inline"><input id="pA" inputmode="decimal" value="20" /><span>% <span data-i18n="of"></span></span><input id="pB" inputmode="decimal" value="80" /></div>
+    <div class="result" id="pOfOut"></div>
+    <h2 data-i18n="pctChange"></h2>
+    <div class="inline"><span data-i18n="from"></span><input id="cA" inputmode="decimal" value="50" /><span data-i18n="to"></span><input id="cB" inputmode="decimal" value="65" /></div>
+    <div class="result" id="pChOut"></div>
+    <h2 data-i18n="discount"></h2>
+    <div class="inline"><span data-i18n="price"></span><input id="dP" inputmode="decimal" value="49.99" /><span>−</span><input id="dD" inputmode="decimal" value="30" /><span>%</span></div>
+    <div class="result" id="dOut"></div>
+  </section>
+
+  <section data-pane="bill" hidden>
+    <label class="field"><span data-i18n="bill"></span><input id="bAmt" inputmode="decimal" value="86.40" /></label>
+    <label class="field"><span data-i18n="tipPct"></span><input id="bTip" inputmode="decimal" value="15" /></label>
+    <label class="field"><span data-i18n="people"></span><input id="bPeople" inputmode="numeric" value="3" /></label>
+    <div class="result" id="bOut"></div>
+  </section>
+
+  <section data-pane="unit" hidden>
+    <p class="hint" data-i18n="unitHint"></p>
+    <div class="cmp">
+      <div><h2>A</h2>
+        <label class="field"><span data-i18n="price"></span><input id="uP1" inputmode="decimal" value="3.49" /></label>
+        <label class="field"><span data-i18n="amount"></span><input id="uQ1" inputmode="decimal" value="500" /></label>
+        <select id="uU1"><option value="g">g</option><option value="kg">kg</option><option value="ml">ml</option><option value="l">l</option><option value="item" data-i18n="items"></option></select>
+      </div>
+      <div><h2>B</h2>
+        <label class="field"><span data-i18n="price"></span><input id="uP2" inputmode="decimal" value="5.99" /></label>
+        <label class="field"><span data-i18n="amount"></span><input id="uQ2" inputmode="decimal" value="1" /></label>
+        <select id="uU2"><option value="g">g</option><option value="kg" selected>kg</option><option value="ml">ml</option><option value="l">l</option><option value="item" data-i18n="items"></option></select>
+      </div>
+    </div>
+    <div class="result" id="uOut"></div>
+  </section>
+
+  <section data-pane="time" hidden>
+    <h2 data-i18n="duration"></h2>
+    <div class="inline"><span data-i18n="from"></span><input id="tA" type="time" value="08:45" /><span data-i18n="to"></span><input id="tB" type="time" value="13:10" /></div>
+    <div class="result" id="tOut"></div>
+    <h2 data-i18n="minutesToHours"></h2>
+    <div class="inline"><input id="tM" inputmode="numeric" value="135" /><span data-i18n="minutes"></span></div>
+    <div class="result" id="tMOut"></div>
+  </section>
+
+  <section data-pane="settings" hidden>
+    <label class="row"><span data-i18n="numberLang"></span>
+      <select id="numberLang">
+        <option value="auto" data-i18n="langAuto"></option>
+        <option value="en">English</option><option value="de">Deutsch</option><option value="fr">Français</option>
+        <option value="es">Español</option><option value="nl">Nederlands</option><option value="pt">Português</option><option value="tr">Türkçe</option>
+      </select>
+    </label>
+    <label class="range"><span data-i18n="rate"></span><input type="range" id="rate" min="0.5" max="1.6" step="0.1" /><output></output></label>
+    <label class="row"><span data-i18n="voice"></span><select id="voice"><option value="" data-i18n="voiceDefault"></option></select></label>
+    <label class="row check"><input type="checkbox" id="allSites" /><span data-i18n="allSites"></span></label>
+    <p class="hint" data-i18n="allSitesHint"></p>
+    <p class="hint" data-i18n="shortcuts"></p>
+    <button id="reset" class="link" data-i18n="reset"></button>
+  </section>
+
+  <footer>
+    <a id="site" target="_blank" rel="noopener" data-i18n="footerLink"></a>
+    <p class="privacy" data-i18n="privacy"></p>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>

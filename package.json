@@ -1,0 +1,19 @@
+{
+  "name": "dyscalculia-extension",
+  "version": "1.0.0",
+  "private": true,
+  "description": "dyscalculia.io Number Helper — browser extension",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node test/numbers.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint:firefox": "web-ext lint --source-dir dist/firefox",
+    "check": "npm run typecheck && npm run build && npm test && npm run lint:firefox"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.8",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2",
+    "web-ext": "^10.8.0"
+  }
+}

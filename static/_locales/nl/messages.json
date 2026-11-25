@@ -1,0 +1,309 @@
+{
+ "extName": {
+  "message": "Dyscalculia.io Getallenhulp"
+ },
+ "extDesc": {
+  "message": "Begrijp elk getal op een webpagina: plaatswaarde, getal in delen, afronden, getallenlijn, plus procent-, rekening- en tijdhulp."
+ },
+ "cmdExplain": {
+  "message": "Geselecteerd getal uitleggen"
+ },
+ "cmdHover": {
+  "message": "Getal-tooltips aan of uit"
+ },
+ "menuExplain": {
+  "message": "Dit getal uitleggen"
+ },
+ "close": {
+  "message": "Sluiten"
+ },
+ "noNumber": {
+  "message": "Geen getal gevonden in de selectie"
+ },
+ "selectFirst": {
+  "message": "Selecteer eerst een getal"
+ },
+ "secParts": {
+  "message": "In delen"
+ },
+ "secPlace": {
+  "message": "Plaatswaarde"
+ },
+ "groupDecimals": {
+  "message": "Decimalen"
+ },
+ "groupOnes": {
+  "message": "Eenheden"
+ },
+ "secExpanded": {
+  "message": "Uitgeschreven vorm"
+ },
+ "listen": {
+  "message": "Luisteren"
+ },
+ "wordsMissing": {
+  "message": "Volledige woorden zijn er in het Engels, Duits, Spaans en Turks. Het getal in delen hierboven werkt in elke taal."
+ },
+ "secWords": {
+  "message": "In woorden"
+ },
+ "roundTo": {
+  "message": "Afgerond op $P1$: $P2$",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "secRound": {
+  "message": "Afronden"
+ },
+ "secLine": {
+  "message": "Op een getallenlijn"
+ },
+ "secMoney": {
+  "message": "In biljetten en munten"
+ },
+ "moneyNote": {
+  "message": "Een gangbare 1-2-5-reeks biljetten en munten; jouw munteenheid kan andere hebben."
+ },
+ "showMoney": {
+  "message": "Toon in biljetten en munten"
+ },
+ "panelFooter": {
+  "message": "Gratis plaatswaardekaart op dyscalculia.io"
+ },
+ "tipHint": {
+  "message": "Dubbelklik voor details"
+ },
+ "masterSwitch": {
+  "message": "Alles aan of uit"
+ },
+ "notAvailable": {
+  "message": "Deze pagina staat geen extensies toe (browserpagina's, de webstore). Probeer een gewone website."
+ },
+ "tabNumber": {
+  "message": "Getal"
+ },
+ "tabBill": {
+  "message": "Rekening"
+ },
+ "tabUnit": {
+  "message": "Prijs per eenheid"
+ },
+ "tabTime": {
+  "message": "Tijd"
+ },
+ "typeNumber": {
+  "message": "Typ een getal"
+ },
+ "btnExplainSel": {
+  "message": "Selectie uitleggen"
+ },
+ "btnExplainTyped": {
+  "message": "Getypt getal uitleggen"
+ },
+ "hoverMode": {
+  "message": "Tooltips op getallen"
+ },
+ "hoverHint": {
+  "message": "Beweeg over een lang getal om het in delen te zien. Dubbelklik voor alle details."
+ },
+ "pctOf": {
+  "message": "Procent van een getal"
+ },
+ "of": {
+  "message": "van"
+ },
+ "pctChange": {
+  "message": "Procentuele verandering"
+ },
+ "from": {
+  "message": "van"
+ },
+ "to": {
+  "message": "tot"
+ },
+ "discount": {
+  "message": "Korting"
+ },
+ "price": {
+  "message": "Prijs"
+ },
+ "bill": {
+  "message": "Rekening"
+ },
+ "tipPct": {
+  "message": "Fooi %"
+ },
+ "people": {
+  "message": "Personen"
+ },
+ "unitHint": {
+  "message": "Welke verpakking is voordeliger? Vergeleken per 100 g, 100 ml of per stuk."
+ },
+ "amount": {
+  "message": "Hoeveelheid"
+ },
+ "items": {
+  "message": "stuks"
+ },
+ "duration": {
+  "message": "Tijd tussen"
+ },
+ "minutesToHours": {
+  "message": "Minuten naar uren"
+ },
+ "minutes": {
+  "message": "minuten"
+ },
+ "numberLang": {
+  "message": "Taal van getallen"
+ },
+ "langAuto": {
+  "message": "Taal van de pagina"
+ },
+ "rate": {
+  "message": "Snelheid"
+ },
+ "voice": {
+  "message": "Stem"
+ },
+ "voiceDefault": {
+  "message": "Standaard van de browser"
+ },
+ "allSites": {
+  "message": "Op elke website aan laten"
+ },
+ "allSitesHint": {
+  "message": "Vraagt toegang tot alle websites zodat tooltips werken zonder dit menu. Er wordt niets verstuurd."
+ },
+ "shortcuts": {
+  "message": "Sneltoetsen: Alt+Shift+N uitleggen · Alt+Shift+H tooltips"
+ },
+ "reset": {
+  "message": "Instellingen terugzetten"
+ },
+ "footerLink": {
+  "message": "Gratis dyscalculietest op dyscalculia.io"
+ },
+ "privacy": {
+  "message": "Geen account, geen tracking. Alles wordt in je browser berekend."
+ },
+ "pctTrick": {
+  "message": "Tip: 1% ervan is $P1$, dus $P1$ × $P2$.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "increase": {
+  "message": "Stijging"
+ },
+ "decrease": {
+  "message": "Daling"
+ },
+ "youPay": {
+  "message": "Je betaalt"
+ },
+ "youSave": {
+  "message": "Je bespaart"
+ },
+ "eachPays": {
+  "message": "Ieder betaalt"
+ },
+ "tip": {
+  "message": "Fooi"
+ },
+ "total": {
+  "message": "Totaal"
+ },
+ "perItem": {
+  "message": "$P1$ per stuk",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "perUnit": {
+  "message": "$P1$ per $P2$",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "unitMismatch": {
+  "message": "Het ene is gewicht, het andere volume of stuks: niet direct te vergelijken."
+ },
+ "samePrice": {
+  "message": "Zelfde prijs per eenheid"
+ },
+ "cheaper": {
+  "message": "$P1$ is goedkoper: $P2$% minder per eenheid",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "hm": {
+  "message": "$P1$ u $P2$ min",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "totalMinutes": {
+  "message": "$P1$ minuten in totaal",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "countUp": {
+  "message": "Optellen: $P1$ → $P3$ is $P2$ min, daarna nog $P4$ u $P5$ min.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p3": {
+    "content": "$3"
+   },
+   "p2": {
+    "content": "$2"
+   },
+   "p4": {
+    "content": "$4"
+   },
+   "p5": {
+    "content": "$5"
+   }
+  }
+ },
+ "overnight": {
+  "message": "De eindtijd valt op de volgende dag."
+ },
+ "remainder": {
+  "message": "rest"
+ }
+}

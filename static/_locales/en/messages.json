@@ -1,0 +1,309 @@
+{
+ "extName": {
+  "message": "Dyscalculia.io Number Helper"
+ },
+ "extDesc": {
+  "message": "Understand any number on a web page: place value, number in words, rounding, number line, plus percent, bill and time helpers."
+ },
+ "cmdExplain": {
+  "message": "Explain the selected number"
+ },
+ "cmdHover": {
+  "message": "Turn number tooltips on or off"
+ },
+ "menuExplain": {
+  "message": "Explain this number"
+ },
+ "close": {
+  "message": "Close"
+ },
+ "noNumber": {
+  "message": "No number found in the selection"
+ },
+ "selectFirst": {
+  "message": "Select a number first"
+ },
+ "secParts": {
+  "message": "In parts"
+ },
+ "secPlace": {
+  "message": "Place value"
+ },
+ "groupDecimals": {
+  "message": "Decimals"
+ },
+ "groupOnes": {
+  "message": "Ones"
+ },
+ "secExpanded": {
+  "message": "Expanded form"
+ },
+ "listen": {
+  "message": "Listen"
+ },
+ "wordsMissing": {
+  "message": "Full words are written out in English, German, Spanish and Turkish. The number in parts above works in every language."
+ },
+ "secWords": {
+  "message": "In words"
+ },
+ "roundTo": {
+  "message": "Rounded to the nearest $P1$: $P2$",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "secRound": {
+  "message": "Rounding"
+ },
+ "secLine": {
+  "message": "On a number line"
+ },
+ "secMoney": {
+  "message": "As notes and coins"
+ },
+ "moneyNote": {
+  "message": "A common 1-2-5 set of notes and coins; your currency may use different ones."
+ },
+ "showMoney": {
+  "message": "Show as notes and coins"
+ },
+ "panelFooter": {
+  "message": "Free place value chart at dyscalculia.io"
+ },
+ "tipHint": {
+  "message": "Double-click for details"
+ },
+ "masterSwitch": {
+  "message": "Turn everything on or off"
+ },
+ "notAvailable": {
+  "message": "This page doesn't allow extensions (browser pages, the web store). Try a normal website."
+ },
+ "tabNumber": {
+  "message": "Number"
+ },
+ "tabBill": {
+  "message": "Bill"
+ },
+ "tabUnit": {
+  "message": "Unit price"
+ },
+ "tabTime": {
+  "message": "Time"
+ },
+ "typeNumber": {
+  "message": "Type a number"
+ },
+ "btnExplainSel": {
+  "message": "Explain selection"
+ },
+ "btnExplainTyped": {
+  "message": "Explain typed number"
+ },
+ "hoverMode": {
+  "message": "Show tooltips on numbers"
+ },
+ "hoverHint": {
+  "message": "Hover over a long number to see it in parts. Double-click it for the full breakdown."
+ },
+ "pctOf": {
+  "message": "Percent of a number"
+ },
+ "of": {
+  "message": "of"
+ },
+ "pctChange": {
+  "message": "Percent change"
+ },
+ "from": {
+  "message": "from"
+ },
+ "to": {
+  "message": "to"
+ },
+ "discount": {
+  "message": "Discount"
+ },
+ "price": {
+  "message": "Price"
+ },
+ "bill": {
+  "message": "Bill"
+ },
+ "tipPct": {
+  "message": "Tip %"
+ },
+ "people": {
+  "message": "People"
+ },
+ "unitHint": {
+  "message": "Which pack is better value? Prices are compared per 100 g, 100 ml or per item."
+ },
+ "amount": {
+  "message": "Amount"
+ },
+ "items": {
+  "message": "items"
+ },
+ "duration": {
+  "message": "Time between"
+ },
+ "minutesToHours": {
+  "message": "Minutes to hours"
+ },
+ "minutes": {
+  "message": "minutes"
+ },
+ "numberLang": {
+  "message": "Number language"
+ },
+ "langAuto": {
+  "message": "Page language"
+ },
+ "rate": {
+  "message": "Speed"
+ },
+ "voice": {
+  "message": "Voice"
+ },
+ "voiceDefault": {
+  "message": "Browser default"
+ },
+ "allSites": {
+  "message": "Keep on for every site"
+ },
+ "allSitesHint": {
+  "message": "Asks for access to all sites so tooltips work without opening this menu. Nothing is sent anywhere."
+ },
+ "shortcuts": {
+  "message": "Shortcuts: Alt+Shift+N explain selection · Alt+Shift+H tooltips"
+ },
+ "reset": {
+  "message": "Reset settings"
+ },
+ "footerLink": {
+  "message": "Free dyscalculia test at dyscalculia.io"
+ },
+ "privacy": {
+  "message": "No account, no tracking. Everything is worked out in your browser."
+ },
+ "pctTrick": {
+  "message": "Shortcut: 1% of it is $P1$, so multiply $P1$ by $P2$.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "increase": {
+  "message": "Increase"
+ },
+ "decrease": {
+  "message": "Decrease"
+ },
+ "youPay": {
+  "message": "You pay"
+ },
+ "youSave": {
+  "message": "You save"
+ },
+ "eachPays": {
+  "message": "Each person pays"
+ },
+ "tip": {
+  "message": "Tip"
+ },
+ "total": {
+  "message": "Total"
+ },
+ "perItem": {
+  "message": "$P1$ per item",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "perUnit": {
+  "message": "$P1$ per $P2$",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "unitMismatch": {
+  "message": "One is weight, the other volume or items — they can't be compared directly."
+ },
+ "samePrice": {
+  "message": "Same price per unit"
+ },
+ "cheaper": {
+  "message": "$P1$ is cheaper: $P2$% less per unit",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "hm": {
+  "message": "$P1$ h $P2$ min",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "totalMinutes": {
+  "message": "$P1$ minutes in total",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "countUp": {
+  "message": "Count up: $P1$ → $P3$ is $P2$ min, then $P4$ h $P5$ min more.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p3": {
+    "content": "$3"
+   },
+   "p2": {
+    "content": "$2"
+   },
+   "p4": {
+    "content": "$4"
+   },
+   "p5": {
+    "content": "$5"
+   }
+  }
+ },
+ "overnight": {
+  "message": "The end time is on the next day."
+ },
+ "remainder": {
+  "message": "remainder"
+ }
+}

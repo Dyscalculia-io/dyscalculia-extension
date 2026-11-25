@@ -1,0 +1,309 @@
+{
+ "extName": {
+  "message": "Dyscalculia.io Zahlenhilfe"
+ },
+ "extDesc": {
+  "message": "Jede Zahl auf einer Webseite verstehen: Stellenwert, Zahl in Worten, Runden, Zahlenstrahl, dazu Prozent-, Rechnungs- und Zeithilfe."
+ },
+ "cmdExplain": {
+  "message": "Markierte Zahl erklären"
+ },
+ "cmdHover": {
+  "message": "Zahlen-Tooltips ein- oder ausschalten"
+ },
+ "menuExplain": {
+  "message": "Diese Zahl erklären"
+ },
+ "close": {
+  "message": "Schließen"
+ },
+ "noNumber": {
+  "message": "In der Markierung wurde keine Zahl gefunden"
+ },
+ "selectFirst": {
+  "message": "Bitte zuerst eine Zahl markieren"
+ },
+ "secParts": {
+  "message": "In Teilen"
+ },
+ "secPlace": {
+  "message": "Stellenwert"
+ },
+ "groupDecimals": {
+  "message": "Dezimalstellen"
+ },
+ "groupOnes": {
+  "message": "Einer"
+ },
+ "secExpanded": {
+  "message": "Zerlegung"
+ },
+ "listen": {
+  "message": "Anhören"
+ },
+ "wordsMissing": {
+  "message": "Ganze Wörter gibt es auf Englisch, Deutsch, Spanisch und Türkisch. Die Zahl in Teilen oben funktioniert in jeder Sprache."
+ },
+ "secWords": {
+  "message": "In Worten"
+ },
+ "roundTo": {
+  "message": "Auf $P1$ gerundet: $P2$",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "secRound": {
+  "message": "Runden"
+ },
+ "secLine": {
+  "message": "Am Zahlenstrahl"
+ },
+ "secMoney": {
+  "message": "In Scheinen und Münzen"
+ },
+ "moneyNote": {
+  "message": "Eine übliche 1-2-5-Stückelung; deine Währung kann andere Scheine und Münzen haben."
+ },
+ "showMoney": {
+  "message": "In Scheinen und Münzen zeigen"
+ },
+ "panelFooter": {
+  "message": "Kostenlose Stellenwerttafel auf dyscalculia.io"
+ },
+ "tipHint": {
+  "message": "Doppelklick für Details"
+ },
+ "masterSwitch": {
+  "message": "Alles ein- oder ausschalten"
+ },
+ "notAvailable": {
+  "message": "Diese Seite erlaubt keine Erweiterungen (Browserseiten, Web Store). Bitte eine normale Website öffnen."
+ },
+ "tabNumber": {
+  "message": "Zahl"
+ },
+ "tabBill": {
+  "message": "Rechnung"
+ },
+ "tabUnit": {
+  "message": "Grundpreis"
+ },
+ "tabTime": {
+  "message": "Zeit"
+ },
+ "typeNumber": {
+  "message": "Zahl eingeben"
+ },
+ "btnExplainSel": {
+  "message": "Markierung erklären"
+ },
+ "btnExplainTyped": {
+  "message": "Eingabe erklären"
+ },
+ "hoverMode": {
+  "message": "Tooltips an Zahlen zeigen"
+ },
+ "hoverHint": {
+  "message": "Mit der Maus über eine lange Zahl fahren, um sie in Teilen zu sehen. Doppelklick zeigt alles."
+ },
+ "pctOf": {
+  "message": "Prozent einer Zahl"
+ },
+ "of": {
+  "message": "von"
+ },
+ "pctChange": {
+  "message": "Prozentuale Änderung"
+ },
+ "from": {
+  "message": "von"
+ },
+ "to": {
+  "message": "bis"
+ },
+ "discount": {
+  "message": "Rabatt"
+ },
+ "price": {
+  "message": "Preis"
+ },
+ "bill": {
+  "message": "Rechnung"
+ },
+ "tipPct": {
+  "message": "Trinkgeld %"
+ },
+ "people": {
+  "message": "Personen"
+ },
+ "unitHint": {
+  "message": "Welche Packung ist günstiger? Verglichen wird pro 100 g, 100 ml oder Stück."
+ },
+ "amount": {
+  "message": "Menge"
+ },
+ "items": {
+  "message": "Stück"
+ },
+ "duration": {
+  "message": "Zeit zwischen"
+ },
+ "minutesToHours": {
+  "message": "Minuten in Stunden"
+ },
+ "minutes": {
+  "message": "Minuten"
+ },
+ "numberLang": {
+  "message": "Zahlensprache"
+ },
+ "langAuto": {
+  "message": "Sprache der Seite"
+ },
+ "rate": {
+  "message": "Tempo"
+ },
+ "voice": {
+  "message": "Stimme"
+ },
+ "voiceDefault": {
+  "message": "Browser-Standard"
+ },
+ "allSites": {
+  "message": "Auf allen Websites aktiv lassen"
+ },
+ "allSitesHint": {
+  "message": "Fragt nach Zugriff auf alle Websites, damit Tooltips ohne dieses Menü funktionieren. Es wird nichts gesendet."
+ },
+ "shortcuts": {
+  "message": "Kürzel: Alt+Umschalt+N Markierung erklären · Alt+Umschalt+H Tooltips"
+ },
+ "reset": {
+  "message": "Einstellungen zurücksetzen"
+ },
+ "footerLink": {
+  "message": "Kostenloser Dyskalkulie-Test auf dyscalculia.io"
+ },
+ "privacy": {
+  "message": "Kein Konto, kein Tracking. Alles wird in deinem Browser gerechnet."
+ },
+ "pctTrick": {
+  "message": "Tipp: 1 % davon ist $P1$, also $P1$ mal $P2$.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "increase": {
+  "message": "Anstieg"
+ },
+ "decrease": {
+  "message": "Rückgang"
+ },
+ "youPay": {
+  "message": "Du zahlst"
+ },
+ "youSave": {
+  "message": "Du sparst"
+ },
+ "eachPays": {
+  "message": "Jede Person zahlt"
+ },
+ "tip": {
+  "message": "Trinkgeld"
+ },
+ "total": {
+  "message": "Gesamt"
+ },
+ "perItem": {
+  "message": "$P1$ pro Stück",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "perUnit": {
+  "message": "$P1$ pro $P2$",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "unitMismatch": {
+  "message": "Eins ist Gewicht, das andere Volumen oder Stück – das lässt sich nicht direkt vergleichen."
+ },
+ "samePrice": {
+  "message": "Gleicher Preis pro Einheit"
+ },
+ "cheaper": {
+  "message": "$P1$ ist günstiger: $P2$ % weniger pro Einheit",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "hm": {
+  "message": "$P1$ Std. $P2$ Min.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "totalMinutes": {
+  "message": "Insgesamt $P1$ Minuten",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "countUp": {
+  "message": "Hochzählen: $P1$ → $P3$ sind $P2$ Min., dann noch $P4$ Std. $P5$ Min.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p3": {
+    "content": "$3"
+   },
+   "p2": {
+    "content": "$2"
+   },
+   "p4": {
+    "content": "$4"
+   },
+   "p5": {
+    "content": "$5"
+   }
+  }
+ },
+ "overnight": {
+  "message": "Die Endzeit liegt am nächsten Tag."
+ },
+ "remainder": {
+  "message": "Rest"
+ }
+}

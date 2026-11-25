@@ -1,0 +1,309 @@
+{
+ "extName": {
+  "message": "Dyscalculia.io Sayı Yardımcısı"
+ },
+ "extDesc": {
+  "message": "Bir sayfadaki her sayıyı anla: basamak değeri, sayının okunuşu, yuvarlama, sayı doğrusu; yüzde, hesap ve süre yardımcıları."
+ },
+ "cmdExplain": {
+  "message": "Seçili sayıyı açıkla"
+ },
+ "cmdHover": {
+  "message": "Sayı ipuçlarını aç/kapat"
+ },
+ "menuExplain": {
+  "message": "Bu sayıyı açıkla"
+ },
+ "close": {
+  "message": "Kapat"
+ },
+ "noNumber": {
+  "message": "Seçimde sayı bulunamadı"
+ },
+ "selectFirst": {
+  "message": "Önce bir sayı seç"
+ },
+ "secParts": {
+  "message": "Parçalarıyla"
+ },
+ "secPlace": {
+  "message": "Basamak değeri"
+ },
+ "groupDecimals": {
+  "message": "Ondalık"
+ },
+ "groupOnes": {
+  "message": "Birler"
+ },
+ "secExpanded": {
+  "message": "Çözümlenmiş hali"
+ },
+ "listen": {
+  "message": "Dinle"
+ },
+ "wordsMissing": {
+  "message": "Tam okunuş İngilizce, Almanca, İspanyolca ve Türkçe için yazılıyor. Yukarıdaki parçalı gösterim her dilde çalışır."
+ },
+ "secWords": {
+  "message": "Okunuşu"
+ },
+ "roundTo": {
+  "message": "En yakın $P1$'a yuvarlanırsa: $P2$",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "secRound": {
+  "message": "Yuvarlama"
+ },
+ "secLine": {
+  "message": "Sayı doğrusunda"
+ },
+ "secMoney": {
+  "message": "Banknot ve madeni para olarak"
+ },
+ "moneyNote": {
+  "message": "Yaygın 1-2-5 banknot ve madeni para dizisi; senin para birimin farklı olabilir."
+ },
+ "showMoney": {
+  "message": "Banknot ve madeni para olarak göster"
+ },
+ "panelFooter": {
+  "message": "Ücretsiz basamak tablosu: dyscalculia.io"
+ },
+ "tipHint": {
+  "message": "Ayrıntı için çift tıkla"
+ },
+ "masterSwitch": {
+  "message": "Hepsini aç/kapat"
+ },
+ "notAvailable": {
+  "message": "Bu sayfa eklentilere izin vermiyor (tarayıcı sayfaları, mağaza). Normal bir site dene."
+ },
+ "tabNumber": {
+  "message": "Sayı"
+ },
+ "tabBill": {
+  "message": "Hesap"
+ },
+ "tabUnit": {
+  "message": "Birim fiyat"
+ },
+ "tabTime": {
+  "message": "Süre"
+ },
+ "typeNumber": {
+  "message": "Bir sayı yaz"
+ },
+ "btnExplainSel": {
+  "message": "Seçimi açıkla"
+ },
+ "btnExplainTyped": {
+  "message": "Yazılanı açıkla"
+ },
+ "hoverMode": {
+  "message": "Sayılarda ipucu göster"
+ },
+ "hoverHint": {
+  "message": "Uzun bir sayının üstüne gel, parçalarıyla gör. Tüm ayrıntı için çift tıkla."
+ },
+ "pctOf": {
+  "message": "Bir sayının yüzdesi"
+ },
+ "of": {
+  "message": "sayı:"
+ },
+ "pctChange": {
+  "message": "Yüzde değişim"
+ },
+ "from": {
+  "message": "başlangıç"
+ },
+ "to": {
+  "message": "bitiş"
+ },
+ "discount": {
+  "message": "İndirim"
+ },
+ "price": {
+  "message": "Fiyat"
+ },
+ "bill": {
+  "message": "Hesap"
+ },
+ "tipPct": {
+  "message": "Bahşiş %"
+ },
+ "people": {
+  "message": "Kişi"
+ },
+ "unitHint": {
+  "message": "Hangi paket daha ucuz? 100 g, 100 ml ya da adet başına karşılaştırılır."
+ },
+ "amount": {
+  "message": "Miktar"
+ },
+ "items": {
+  "message": "adet"
+ },
+ "duration": {
+  "message": "İki saat arası"
+ },
+ "minutesToHours": {
+  "message": "Dakikayı saate çevir"
+ },
+ "minutes": {
+  "message": "dakika"
+ },
+ "numberLang": {
+  "message": "Sayı dili"
+ },
+ "langAuto": {
+  "message": "Sayfanın dili"
+ },
+ "rate": {
+  "message": "Hız"
+ },
+ "voice": {
+  "message": "Ses"
+ },
+ "voiceDefault": {
+  "message": "Tarayıcı varsayılanı"
+ },
+ "allSites": {
+  "message": "Her sitede açık kalsın"
+ },
+ "allSitesHint": {
+  "message": "İpuçlarının bu menüyü açmadan çalışması için tüm sitelere erişim ister. Hiçbir veri gönderilmez."
+ },
+ "shortcuts": {
+  "message": "Kısayollar: Alt+Shift+N seçimi açıkla · Alt+Shift+H ipuçları"
+ },
+ "reset": {
+  "message": "Ayarları sıfırla"
+ },
+ "footerLink": {
+  "message": "Ücretsiz diskalkuli testi: dyscalculia.io"
+ },
+ "privacy": {
+  "message": "Hesap yok, takip yok. Her şey tarayıcında hesaplanır."
+ },
+ "pctTrick": {
+  "message": "Kısa yol: %1'i $P1$, yani $P1$ × $P2$.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "increase": {
+  "message": "Artış"
+ },
+ "decrease": {
+  "message": "Azalış"
+ },
+ "youPay": {
+  "message": "Ödeyeceğin"
+ },
+ "youSave": {
+  "message": "Kazancın"
+ },
+ "eachPays": {
+  "message": "Kişi başı"
+ },
+ "tip": {
+  "message": "Bahşiş"
+ },
+ "total": {
+  "message": "Toplam"
+ },
+ "perItem": {
+  "message": "Adet başı $P1$",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "perUnit": {
+  "message": "$P2$ başına $P1$",
+  "placeholders": {
+   "p2": {
+    "content": "$2"
+   },
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "unitMismatch": {
+  "message": "Biri ağırlık, diğeri hacim ya da adet: doğrudan karşılaştırılamaz."
+ },
+ "samePrice": {
+  "message": "Birim fiyat aynı"
+ },
+ "cheaper": {
+  "message": "$P1$ daha ucuz: birim başına %$P2$ daha az",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "hm": {
+  "message": "$P1$ sa $P2$ dk",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "totalMinutes": {
+  "message": "Toplam $P1$ dakika",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "countUp": {
+  "message": "Sayarak: $P1$ → $P3$ arası $P2$ dk, sonra $P4$ sa $P5$ dk daha.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p3": {
+    "content": "$3"
+   },
+   "p2": {
+    "content": "$2"
+   },
+   "p4": {
+    "content": "$4"
+   },
+   "p5": {
+    "content": "$5"
+   }
+  }
+ },
+ "overnight": {
+  "message": "Bitiş saati ertesi güne düşüyor."
+ },
+ "remainder": {
+  "message": "kalan"
+ }
+}
