@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyscalculia.io Ayuda con números"
+  "message": "Dyscalculia.io: calcular porcentaje, números a letras"
  },
  "extDesc": {
-  "message": "Entiende cualquier número de una web: valor posicional, número en palabras, redondeo, recta numérica, porcentajes, cuenta y tiempo."
+  "message": "Entiende los números de una web: números a letras, valor posicional, recta numérica. Y calcular porcentaje, descuento y propina."
  },
  "cmdExplain": {
   "message": "Explicar el número seleccionado"
@@ -305,5 +305,14 @@
  },
  "remainder": {
   "message": "resto"
+ },
+ "rateAsk": {
+  "message": "¿Te resulta útil? Valórala en la tienda"
+ },
+ "rateNo": {
+  "message": "No, gracias"
+ },
+ "popupTitle": {
+  "message": "Dyscalculia.io Ayuda con números"
  }
 }

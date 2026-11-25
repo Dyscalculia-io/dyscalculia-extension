@@ -1,5 +1,6 @@
 import { fmt, fmtMoney, parseNumber, partsText, pickLang, words, type Lang } from "./numbers";
 import { api, DEFAULTS, loadSettings, saveSettings, type Msg, type Settings } from "./settings";
+import { setupRating } from "./rate";
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 const SITE = "https://dyscalculia.io";
@@ -206,6 +207,7 @@ async function main() {
     void loadSettings().then(render);
   };
   void ensureInjected();
+  void setupRating($("rateBox"), $<HTMLAnchorElement>("rateLink"), $("rateNo"));
 
   const calc = () => {
     numberTab();

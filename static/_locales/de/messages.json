@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyscalculia.io Zahlenhilfe"
+  "message": "Dyscalculia.io: Prozentrechner & Zahl in Worten"
  },
  "extDesc": {
-  "message": "Jede Zahl auf einer Webseite verstehen: Stellenwert, Zahl in Worten, Runden, Zahlenstrahl, dazu Prozent-, Rechnungs- und Zeithilfe."
+  "message": "Zahlen auf Webseiten verstehen: Zahl in Worten, Stellenwerttafel, Zahlenstrahl. Dazu Prozentrechner, Rabatt, Grundpreis, Trinkgeld."
  },
  "cmdExplain": {
   "message": "Markierte Zahl erklären"
@@ -305,5 +305,14 @@
  },
  "remainder": {
   "message": "Rest"
+ },
+ "rateAsk": {
+  "message": "Hilfreich? Bewerte die Erweiterung im Store"
+ },
+ "rateNo": {
+  "message": "Nein danke"
+ },
+ "popupTitle": {
+  "message": "Dyscalculia.io Zahlenhilfe"
  }
 }

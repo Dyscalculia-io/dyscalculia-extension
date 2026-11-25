@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyscalculia.io Number Helper"
+  "message": "Dyscalculia.io: Place Value Chart & Number to Words"
  },
  "extDesc": {
-  "message": "Understand any number on a web page: place value, number in words, rounding, number line, plus percent, bill and time helpers."
+  "message": "Explain any number on a page: place value chart, number to words, rounding, number line. Plus percentage, bill split and unit price."
  },
  "cmdExplain": {
   "message": "Explain the selected number"
@@ -305,5 +305,14 @@
  },
  "remainder": {
   "message": "remainder"
+ },
+ "rateAsk": {
+  "message": "Finding it useful? Rate it in the store"
+ },
+ "rateNo": {
+  "message": "No thanks"
+ },
+ "popupTitle": {
+  "message": "Dyscalculia.io Number Helper"
  }
 }

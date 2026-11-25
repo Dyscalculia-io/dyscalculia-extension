@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyscalculia.io Sayı Yardımcısı"
+  "message": "Dyscalculia.io: Yüzde ve İndirim Hesaplama"
  },
  "extDesc": {
-  "message": "Bir sayfadaki her sayıyı anla: basamak değeri, sayının okunuşu, yuvarlama, sayı doğrusu; yüzde, hesap ve süre yardımcıları."
+  "message": "Sayfadaki sayıları anla: basamak değeri, sayının okunuşu, sayı doğrusu. Yüzde hesaplama, indirim, birim fiyat ve hesap bölme."
  },
  "cmdExplain": {
   "message": "Seçili sayıyı açıkla"
@@ -305,5 +305,14 @@
  },
  "remainder": {
   "message": "kalan"
+ },
+ "rateAsk": {
+  "message": "İşine yaradı mı? Mağazada puan ver"
+ },
+ "rateNo": {
+  "message": "Hayır, teşekkürler"
+ },
+ "popupTitle": {
+  "message": "Dyscalculia.io Sayı Yardımcısı"
  }
 }

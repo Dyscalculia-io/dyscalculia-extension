@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyscalculia.io Getallenhulp"
+  "message": "Dyscalculia.io: procent en korting berekenen"
  },
  "extDesc": {
-  "message": "Begrijp elk getal op een webpagina: plaatswaarde, getal in delen, afronden, getallenlijn, plus procent-, rekening- en tijdhulp."
+  "message": "Begrijp de getallen op een pagina: plaatswaarde, afronden, getallenlijn. Plus procent berekenen, korting, fooi en prijs per eenheid."
  },
  "cmdExplain": {
   "message": "Geselecteerd getal uitleggen"
@@ -305,5 +305,14 @@
  },
  "remainder": {
   "message": "rest"
+ },
+ "rateAsk": {
+  "message": "Handig? Geef een beoordeling in de store"
+ },
+ "rateNo": {
+  "message": "Nee, bedankt"
+ },
+ "popupTitle": {
+  "message": "Dyscalculia.io Getallenhulp"
  }
 }

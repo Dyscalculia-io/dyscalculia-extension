@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyscalculia.io Ajuda com números"
+  "message": "Dyscalculia.io: calcular porcentagem e números"
  },
  "extDesc": {
-  "message": "Entenda qualquer número numa página: valor posicional, número por partes, arredondamento, reta numérica, porcentagem, conta e tempo."
+  "message": "Entenda os números de uma página: valor posicional, arredondamento, reta numérica. E calcular porcentagem, desconto e dividir conta."
  },
  "cmdExplain": {
   "message": "Explicar o número selecionado"
@@ -305,5 +305,14 @@
  },
  "remainder": {
   "message": "resto"
+ },
+ "rateAsk": {
+  "message": "Está sendo útil? Avalie na loja"
+ },
+ "rateNo": {
+  "message": "Não, obrigado"
+ },
+ "popupTitle": {
+  "message": "Dyscalculia.io Ajuda com números"
  }
 }

@@ -1,9 +1,9 @@
 {
  "extName": {
-  "message": "Dyscalculia.io Aide aux nombres"
+  "message": "Dyscalculia.io : calcul de pourcentage et remise"
  },
  "extDesc": {
-  "message": "Comprendre tout nombre d'une page : valeur de position, nombre par tranches, arrondi, droite numérique, pourcentages et durées."
+  "message": "Comprendre les nombres d'une page : tableau de numération, arrondi, droite numérique. Calcul de pourcentage, remise, prix unitaire."
  },
  "cmdExplain": {
   "message": "Expliquer le nombre sélectionné"
@@ -305,5 +305,14 @@
  },
  "remainder": {
   "message": "reste"
+ },
+ "rateAsk": {
+  "message": "Utile ? Donnez une note dans la boutique"
+ },
+ "rateNo": {
+  "message": "Non merci"
+ },
+ "popupTitle": {
+  "message": "Dyscalculia.io Aide aux nombres"
  }
 }

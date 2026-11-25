@@ -26,7 +26,7 @@ function out(target, manifest) {
   cpSync("static", dir, { recursive: true });
   for (const f of ["background.js", "content.js", "popup.js"]) copyFileSync(`dist/tmp/${f}`, `${dir}/${f}`);
   writeFileSync(`${dir}/manifest.json`, JSON.stringify(manifest, null, 2));
-  execSync(`cd ${dir} && zip -qr ../${pkg.name}-${target}-${pkg.version}.zip .`);
+  execSync(`cd ${dir} && zip -qr ../${pkg.name}-${target}-${pkg.version}.zip . -x "*.DS_Store" -x "__MACOSX/*"`);
 }
 
 out("chrome", base);
@@ -39,4 +39,9 @@ ff.browser_specific_settings = {
 };
 out("firefox", ff);
 rmSync("dist/tmp", { recursive: true, force: true });
+
+// Source zip for Firefox AMO review: everything needed for `npm ci && npm run build` to reproduce the zips.
+execSync(
+  `zip -qr dist/${pkg.name}-source-${pkg.version}.zip build.mjs package.json package-lock.json tsconfig.json src static LICENSE README.md -x "*.DS_Store"`,
+);
 console.log("built", pkg.version, "→ dist/chrome, dist/firefox + zips");

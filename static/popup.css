@@ -46,3 +46,4 @@ footer a{display:block;margin-bottom:4px;color:var(--accent);font-weight:600}
 .switch span:before{content:"";position:absolute;width:16px;height:16px;left:3px;top:3px;border-radius:50%;background:#fff;transition:.15s}
 .switch input:checked+span{background:var(--warm)}
 .switch input:checked+span:before{transform:translateX(16px)}
+.rate{margin:0 0 6px;font-size:12px}.rate a{display:inline;margin:0}.rate .link{font-size:11px;color:var(--mute)}
