@@ -157,9 +157,9 @@ FR, NL and PT names do not promise number-to-words, because full words are only 
 
 | Locale | Name (extName) | Summary (extDesc, ≤132) | Volumes used |
 |---|---|---|---|
-| en | Dyscalculia.io: Place Value Chart & Number to Words | Explain any number on a page: place value chart, number to words, rounding, number line. Plus percentage, bill split and unit price. | place value chart 40,500 · number to words 14,800 · unit price calculator 2,900 · bill split calculator 1,600 · dyscalculia app 70 |
+| en | Dyscalculia.io: Place Value Chart, Number to Words | Explain any number on a page: place value chart, number to words, rounding, number line. Plus percentage, bill split and unit price. | place value chart 40,500 · number to words 14,800 · unit price calculator 2,900 · bill split calculator 1,600 · dyscalculia app 70 |
 | de | Dyscalculia.io: Prozentrechner & Zahl in Worten | Zahlen auf Webseiten verstehen: Zahl in Worten, Stellenwerttafel, Zahlenstrahl. Dazu Prozentrechner, Rabatt, Grundpreis, Trinkgeld. | Prozentrechner 246,000 · Rabattrechner 5,400 · Zahl in Worten 2,900 · Stellenwerttafel 5,400 · Zahlenstrahl 6,600 |
-| es | Dyscalculia.io: calcular porcentaje, números a letras | Entiende los números de una web: números a letras, valor posicional, recta numérica. Y calcular porcentaje, descuento y propina. | calcular porcentaje 40,500 · números a letras 2,900 · calculadora de descuento 1,900 |
+| es | Dyscalculia.io: porcentajes y números a letras | Entiende los números de una web: números a letras, valor posicional, recta numérica. Y calcular porcentaje, descuento y propina. | calcular porcentaje 40,500 · números a letras 2,900 · calculadora de descuento 1,900 (name shortened to ≤50 for AMO: "porcentajes") |
 | fr | Dyscalculia.io : calcul de pourcentage et remise | Comprendre les nombres d'une page : tableau de numération, arrondi, droite numérique. Calcul de pourcentage, remise, prix unitaire. | calcul pourcentage 74,000 · calcul remise 2,400 · tableau de numération 3,600 (chiffre en lettre 27,100 skipped: not supported in fr) |
 | nl | Dyscalculia.io: procent en korting berekenen | Begrijp de getallen op een pagina: plaatswaarde, afronden, getallenlijn. Plus procent berekenen, korting, fooi en prijs per eenheid. | procent berekenen 9,900 · korting berekenen 6,600 · getallenlijn 1,600 (getallen in woorden 40) |
 | pt_BR | Dyscalculia.io: calcular porcentagem e números | Entenda os números de uma página: valor posicional, arredondamento, reta numérica. E calcular porcentagem, desconto e dividir conta. | calcular porcentagem 74,000 · calculadora de desconto 2,400 · dividir conta 2,900 (número por extenso 74,000 skipped: not supported in pt) |
@@ -242,7 +242,7 @@ Open https://addons.mozilla.org/developers/addon/submit/ → **On this site** (l
   (the bundles are readable esbuild output, but esbuild counts as a build tool for AMO).
 
 ### Describe add-on
-- Name and summary: imported from the zip's `_locales` in all 7 languages (keep).
+- Name and summary: imported from the zip's `_locales` in all 7 languages (keep; every name is ≤50 chars, the AMO limit).
 - Add-on URL: `dyscalculia-number-helper`
 - Summary (≤250; English, extend the imported one):
   `Explain any number on a web page: place value chart, number to words, rounding and number line. Plus step-by-step percentage, discount, tip, bill split, unit price and time helpers. Free, no account, no data collected.`
